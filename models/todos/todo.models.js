@@ -28,3 +28,6 @@ const todoSchema = new mongoose.Schema({
 
 
 export const Todo = mongoose.modal('Todo', todoSchema);
+// mongoose model asks 2 questions ; takes two values-
+// 1. schema kya naam se rakhna hei?   -> 'Todo'
+// 2. schema kis par based rakhan hei? -> todoSchema
